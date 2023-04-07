@@ -103,7 +103,7 @@ int	reverse_rotate(t_list **stack, char c)
 
 // minimum index = 1
 // index 1 olan sayı hangi sırada onu bulmaya çalışıyoruz.
-int	min_value(t_list **stack_a)
+int	min_order(t_list **stack_a)
 {
 	t_list	*new;
 	int		min_order;
